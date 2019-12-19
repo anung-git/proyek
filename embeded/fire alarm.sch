@@ -6406,8 +6406,8 @@ Source: DCJ0303.pdf</description>
 </plain>
 <instances>
 <instance part="U$2" gate="G$1" x="7.62" y="50.8"/>
-<instance part="LED1" gate="G$1" x="58.42" y="40.64"/>
-<instance part="LED2" gate="G$1" x="50.8" y="40.64"/>
+<instance part="LED1" gate="G$1" x="60.96" y="38.1"/>
+<instance part="LED2" gate="G$1" x="50.8" y="38.1"/>
 <instance part="SP1" gate="G$1" x="96.52" y="66.04" smashed="yes" rot="R90">
 <attribute name="NAME" x="90.17" y="62.23" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="99.695" y="62.23" size="1.778" layer="96" rot="R90"/>
@@ -6431,7 +6431,7 @@ Source: DCJ0303.pdf</description>
 <instance part="GND1" gate="1" x="-12.7" y="81.28"/>
 <instance part="+3V2" gate="G$1" x="33.02" y="55.88" rot="R270"/>
 <instance part="GND2" gate="1" x="33.02" y="35.56" rot="R90"/>
-<instance part="GND3" gate="1" x="50.8" y="30.48"/>
+<instance part="GND3" gate="1" x="50.8" y="27.94"/>
 <instance part="GND4" gate="1" x="-22.86" y="50.8"/>
 <instance part="X1" gate="-1" x="144.78" y="66.04" rot="R180"/>
 <instance part="X1" gate="-2" x="144.78" y="58.42" rot="R180"/>
@@ -6453,9 +6453,9 @@ Source: DCJ0303.pdf</description>
 <attribute name="VALUE" x="-34.29" y="96.52" size="1.778" layer="96" rot="MR180"/>
 <attribute name="NAME" x="-34.29" y="80.518" size="1.778" layer="95" rot="MR180"/>
 </instance>
-<instance part="R3" gate="G$1" x="43.18" y="43.18" rot="R180"/>
+<instance part="R3" gate="G$1" x="40.64" y="40.64" rot="R180"/>
 <instance part="R4" gate="G$1" x="43.18" y="48.26" rot="R180"/>
-<instance part="GND8" gate="1" x="58.42" y="30.48"/>
+<instance part="GND8" gate="1" x="60.96" y="27.94"/>
 <instance part="H1" gate="G$1" x="68.58" y="5.08"/>
 <instance part="H2" gate="G$1" x="68.58" y="-2.54"/>
 <instance part="H3" gate="G$1" x="68.58" y="-10.16"/>
@@ -6487,12 +6487,12 @@ Source: DCJ0303.pdf</description>
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="58.42" y1="33.02" x2="58.42" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="30.48" x2="60.96" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="LED2" gate="G$1" pin="C"/>
-<wire x1="50.8" y1="33.02" x2="50.8" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
+<wire x1="50.8" y1="30.48" x2="50.8" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="E"/>
@@ -6621,15 +6621,15 @@ Source: DCJ0303.pdf</description>
 <segment>
 <pinref part="LED2" gate="G$1" pin="A"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="48.26" y1="43.18" x2="50.8" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="40.64" x2="50.8" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="LED1" gate="G$1" pin="A"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="48.26" y1="48.26" x2="58.42" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="48.26" x2="58.42" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="48.26" x2="60.96" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="48.26" x2="60.96" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -6643,9 +6643,8 @@ Source: DCJ0303.pdf</description>
 <segment>
 <pinref part="U$2" gate="G$1" pin="D7"/>
 <wire x1="27.94" y1="45.72" x2="35.56" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="45.72" x2="35.56" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="35.56" y1="43.18" x2="38.1" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="45.72" x2="35.56" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

@@ -3,9 +3,9 @@
 #include <BlynkSimpleEsp8266.h>
 #define BLYNK_PRINT Serial
 
-char auth[] = "E7Y-LD7XyeXdtyNxYSGbiiHT-6OJuhq-";   //masukan token anda
-char ssid[] = "Redmi";            //nama wifi
-char pass[] = "1234567890";       //password wifi
+char auth[] = "OXHw5XoEniLm16AjOSi7qa2AMyvKLW9g";   //masukan token anda
+char ssid[] = "ardinista";            //nama wifi
+char pass[] = "ardiasta";             //password wifi
 
 int thermoDO = D6;
 int thermoCS = D7;
